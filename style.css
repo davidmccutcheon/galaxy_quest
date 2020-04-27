@@ -1,0 +1,104 @@
+h1 {
+    position: fixed;
+    top: 30px;
+    left: 200px;
+    font-family: "American Typewriter";
+    color: fuchsia;
+    padding-bottom: 40px;
+    border: thin solid dodgerblue;
+}
+
+.logo {
+    position: relative;
+    margin-left: 80%;
+    margin-top: 5%;
+    width: 200px;
+    padding: 5%;
+}
+
+.intro {
+    display: block;
+    font-family: "Bookman Old Style";
+    color: lightcyan;
+    margin-left: 50%;
+    margin-top: 40px;
+    font-size: x-large;
+    border-bottom: thin solid red;
+}
+
+.description {
+    display: block;
+    font-family: "Impact";
+    color: yellow;
+    margin-left: 50%;
+    border: solid black;
+    background-color: coral;
+    padding: 10px;
+}
+
+.name {
+    display: inline-block;
+    font-family: "Impact";
+    border: thick dotted lightgoldenrodyellow;
+    color: green;
+    float: right;
+}
+
+.lefty {
+    float: left;
+    position: relative;
+    bottom: 50px;
+}
+
+.righty {
+    float: right;
+    position: relative;
+    top: 50px;
+}
+
+a {
+    margin-left: 45px;
+}
+
+a:link {
+    background-color: blueviolet;
+    color: yellow;
+    font-family: "Courier New";
+}
+
+a:visited {
+    background-color: orange;
+    color: red;
+    font-family: "Courier New";
+}
+
+a:hover {
+    position: relative;
+    left: 5px;
+    bottom: 8px;
+    color: deepskyblue;
+    font-family: "American Typewriter";
+}
+
+#ngunslogo {
+     border: thick solid greenyellow;
+ }
+
+#protlogo {
+    border: thick solid mediumorchid;
+}
+
+#smallnguns {
+    border-right: thick solid yellow;
+    border-left: thick dotted red;
+    border-top: thin solid navajowhite;
+    border-bottom: thin solid navajowhite;
+    padding: 2px;
+}
+
+
+#white {
+    position: absolute;
+    right: 400px;
+    top: 100px;
+}
